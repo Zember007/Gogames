@@ -1,0 +1,640 @@
+@font-face {
+  font-family: AlumniSansCollegiateOne;
+  font-display: swap;
+  src: url("../fonts/AlumniSansCollegiateOne-Italic.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Italic.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: AlumniSansCollegiateOne;
+  font-display: swap;
+  src: url("../fonts/AlumniSansCollegiateOne-Regular.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: AlumniSansCollegiateOne;
+  font-display: swap;
+  src: url("../fonts/AlumniSansCollegiateOne-Italic.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Italic.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: AlumniSansCollegiateOne;
+  font-display: swap;
+  src: url("../fonts/AlumniSansCollegiateOne-Regular.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: MADE TheArtist Script Extras PERSONAL USE;
+  font-display: swap;
+  src: url("../fonts/MADE TheArtist Script Extras PERSONAL USE.woff2") format("woff2"), url("../fonts/MADE TheArtist Script Extras PERSONAL USE.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: MADE TheArtist Script Extras PERSONAL USE;
+  font-display: swap;
+  src: url("../fonts/MADE TheArtist Script Extras PERSONAL USE.woff2") format("woff2"), url("../fonts/MADE TheArtist Script Extras PERSONAL USE.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: MADE TheArtist Script PERSONAL USE;
+  font-display: swap;
+  src: url("../fonts/MADE TheArtist Script PERSONAL USE.woff2") format("woff2"), url("../fonts/MADE TheArtist Script PERSONAL USE.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: MADE TheArtist Script PERSONAL USE;
+  font-display: swap;
+  src: url("../fonts/MADE TheArtist Script PERSONAL USE.woff2") format("woff2"), url("../fonts/MADE TheArtist Script PERSONAL USE.woff") format("woff");
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.wrapper {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+/* --------------------------- HEADER -------------------------- */
+.header {
+  background: url(../img/bg-head.svg), 50%/cover no-repeat;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.head_img svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.header_top {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  margin-right: 55px;
+}
+
+.nav_el {
+  color: #446381;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.nav_el a {
+  transition: all 0.3s;
+}
+
+.nav_el a:hover {
+  color: #ffffff;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-image: linear-gradient(95deg, #4499D9 17.46%, #7367BE 87.77%);
+  color: #FFF;
+  font-weight: 500;
+  line-height: 24px;
+  background-position: right bottom;
+  background-size: 200% auto;
+  transition: background-position 0.3s, opacity 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background: #4499D9;
+}
+
+.btn_head {
+  width: 180px;
+  height: 50px;
+}
+
+.header_bottom {
+  padding-bottom: 92px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head_block-text {
+  position: relative;
+  max-width: 520px;
+}
+
+.h1 {
+  margin-bottom: 26px;
+  color: #446381;
+  font-size: calc(15px + 8 * (100vw - 320px) / 850);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.h2 {
+  margin-bottom: 31px;
+  color: #EB8382;
+  font-size: calc(30px + 38 * (100vw - 320px) / 850);
+  font-weight: 700;
+  line-height: 75px;
+}
+.h2 span {
+  color: #446381;
+}
+
+.inf {
+  margin-bottom: 36px;
+  max-width: 518px;
+  color: #826F8C;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.btn_main {
+  width: 207px;
+  height: 50px;
+}
+
+.head_animation {
+  position: absolute;
+  left: 60%;
+  bottom: -30%;
+  width: 120px;
+  height: 120px;
+  animation: head-an 7s infinite linear;
+}
+
+@keyframes head-an {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.head_block-img {
+  position: relative;
+}
+.head_block-img .head_img {
+  margin-left: 20px;
+}
+
+.head_rat {
+  width: calc(75px + 175 * (100vw - 320px) / 1280);
+  height: auto;
+  padding: 15px 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head_rating {
+  max-width: 102px;
+}
+
+.rating_text {
+  color: #446381;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.rating_price {
+  margin: 4.3px 0;
+  color: #EB8382;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.rat-play {
+  margin-right: 10px;
+}
+
+.head_block-rating2 {
+  position: absolute;
+  right: -6%;
+  bottom: -20px;
+}
+
+.head_block-rating1 {
+  position: absolute;
+  left: 3%;
+  top: -20px;
+}
+
+.head_rating-img svg {
+  width: 100%;
+  height: auto;
+}
+
+/* ---------------------------  About_screen ------------------------------ */
+.about_screen {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about_screen-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_screen-an-block {
+  position: relative;
+  margin-right: 20px;
+}
+.about_screen-an-block img {
+  width: 100%;
+  height: auto;
+}
+
+.screen-an img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: screen-an 2s alternate infinite ease-in;
+  width: 50%;
+  height: auto;
+}
+
+@keyframes screen-an {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -5%;
+  }
+}
+/* -------------------------------- about_gamepad ------------------------------ */
+.about_gamepad {
+  background: url(../img/bg-about_gamepad.svg), 50%/cover no-repeat;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.about_gamepad-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_gamepad-an-block {
+  position: relative;
+}
+.about_gamepad-an-block::before {
+  content: url(../img/icons/element_gamepad1.svg);
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  animation: el_game-an 5s infinite linear;
+}
+.about_gamepad-an-block::after {
+  content: url(../img/icons/element_gamepad2.svg);
+  position: absolute;
+  top: 130px;
+  right: 230px;
+  animation: el_game-an 5s infinite linear;
+}
+
+.bg_gamepad img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes el_game-an {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes gamepad-an {
+  0% {
+    top: 220px;
+  }
+  100% {
+    top: 240px;
+  }
+}
+.gamepad {
+  position: absolute;
+  top: 220px;
+  animation: gamepad-an 1s infinite alternate ease-in;
+}
+.gamepad img {
+  width: 100%;
+  height: auto;
+}
+
+.pay {
+  margin-bottom: 80px;
+}
+
+.pay_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pay_block-white {
+  height: 566px;
+  border-radius: 20px;
+  background: #FBDACF;
+  box-shadow: 0px 20px 50px 0px rgba(132, 148, 205, 0.08);
+  padding: 45px;
+}
+.pay_block-white .pay_name {
+  color: #446381;
+  font-size: 32px;
+  font-weight: 700;
+}
+.pay_block-white .pay_menu {
+  color: #826F8C;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 138.889%;
+}
+.pay_block-white .pay_menu li::before {
+  content: url(../img/icons/check-black.svg);
+  margin-right: 13px;
+}
+
+.pay_btn {
+  max-width: 267px;
+  height: 50px;
+}
+
+.pay_block-black {
+  height: 606px;
+  border-radius: 20px;
+  background: #09143C;
+  padding: 40px 45px;
+}
+.pay_block-black .pay_name {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 700;
+}
+.pay_block-black .pay_menu {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 138.889%;
+}
+.pay_block-black .pay_menu li::before {
+  content: url(../img/icons/check.svg);
+  margin-right: 13px;
+}
+
+.pay_price {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #EB8382;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pay_price span {
+  color: #EB8382;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 0px;
+}
+
+.pay_block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+.head_pay-text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.check_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3%;
+  right: 8%;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  background: #EB8382;
+  border: 8px solid #FAC7B5;
+}
+
+.footer {
+  padding: 25px 0;
+}
+
+.footer_text {
+  color: #826F8C;
+  font-weight: 500;
+  flex-grow: 1;
+  text-align: center;
+  align-self: center;
+}
+
+.icon_share {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #FBDACF;
+  margin-right: 18px;
+  transition: 0.3s all;
+}
+
+.icon_share:last-child {
+  margin-right: 0;
+}
+
+.icon_share:hover {
+  background: white;
+}
+
+.footer_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 950px;
+  }
+}
+@media (max-width: 950px) {
+  .footer_main {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .pay_main {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about_gamepad-main {
+    flex-direction: column;
+  }
+  .about_screen-main {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .h1 {
+    text-align: center;
+  }
+  .h2 {
+    text-align: center;
+  }
+  .inf {
+    text-align: center;
+  }
+  .head_block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head_animation {
+    display: none;
+  }
+  .header_bottom {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .head_rat {
+    width: calc(150px + 100 * (100vw - 320px) / 1280);
+  }
+  .nav {
+    display: none;
+  }
+  .container {
+    max-width: none;
+  }
+}
